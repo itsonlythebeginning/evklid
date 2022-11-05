@@ -6,3 +6,4 @@ Try it here: https://itsonlythebeginning.github.io/evklid/
 
 придерживание концепции Pixel Perfect нейминг по методологии БЭМ
 
+https://user-images.githubusercontent.com/107440223/200126702-e49d3dc2-2e98-4164-9113-641eed90e6ef.png
