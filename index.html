@@ -1,0 +1,611 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Evklid</title>
+    <link rel="stylesheet" href="reset.css"  >
+    <link rel="stylesheet" href="style.css"  >
+
+</head>
+
+<body>
+
+<header  class="header" >
+    <div  class="container"  >
+        <div  class="header_wrapper"  >
+
+            <div    class="header_burger"    >
+                <span   class="burger_line burger_line_first"    >      </span>
+                <span   class="burger_line burger_line_second"   >      </span>
+                <span   class="burger_line burger_line_third"    >      </span>
+            </div>
+
+            <div  class="header_wrapper_logo"  >
+                <img src="logo.png"  class="header_wrapper_logo_pic"   >
+            </div>
+
+            <div  class="header_nav"  >
+                <div    class="header_nav_close"    >
+                    <span   class="header_nav_close_line"    >      </span>
+                    <span   class="header_nav_close_line"    >      </span>
+                </div>
+
+                <ul   class="header_list"  >
+                    <li   class="header_item"  >
+                        <a  href="#about"  class="header_link js-scroll"  >   О нас  </a>
+                    </li>
+                    <li   class="header_item"  >
+                        <a  href="#faq"  class="header_link js-scroll"  >  Проекты   </a>
+                    </li>
+                    <li   class="header_item"  >
+                        <a  href="#howWeWork"  class="header_link js-scroll"  >   Этапы  </a>
+                    </li>
+                    <li   class="header_item"  >
+                        <a  href="#faq"  class="header_link js-scroll"  >  Отзывы   </a>
+                    </li>
+                    <li   class="header_item"  >
+                        <a  href="#contacts"  class="header_link js-scroll"  > Контакты  </a>
+                    </li>
+                </ul>
+            </div>
+
+
+
+            <div  class="header_search"  >
+                <svg   class="header_search_pic"  width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="18.5138" y="18.5495" width="8" height="2" transform="rotate(45 18.5138 18.5495)" fill="#333333"/>
+                    <circle cx="11.5" cy="11.5" r="10.5" stroke="#333333" stroke-width="2"/>
+                </svg>
+            </div>
+
+            <div  class="header_search_box"  >
+                <form    class="would_like_search"  >
+                    <input type="text"  name="search" placeholder="Что будем искать?"  class="inp"  >
+                    <button   type="submit"  class="would_like_search_btn" >
+                        <svg   class="would_like_search_pic"  width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="18.5138" y="18.5495" width="8" height="2" transform="rotate(45 18.5138 18.5495)" fill="#333333"/>
+                            <circle cx="11.5" cy="11.5" r="10.5" stroke="#333333" stroke-width="2"/>
+                        </svg>
+                    </button>
+                    <button    class="would_like_close_box"    >
+                        <svg   class="would_like_close_pic"  width="25" height="27" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="8.58081" y="7" width="11.1785" height="2.2357" transform="rotate(45 8.58081 7)" fill="#333333"/>
+                            <rect x="7" y="14.9044" width="11.1785" height="2.2357" transform="rotate(-45 7 14.9044)" fill="#333333"/>
+                            <circle cx="11.5" cy="11.5" r="10.5" stroke="#333333" stroke-width="2"/>
+                        </svg>
+
+                    </button>
+
+
+                </form>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<div  class="main"  >
+    <div  class="container"  >
+        <div  class="slider"  >
+            <div  class="slider_wrapper"  >
+                <div  class="slider_line"  >
+                    <img src="slider_one.jpg"  class="slider_line_pic"     >
+                    <img src="slider_two.jpg"  class="slider_line_pic"     >
+                    <img src="slider_three.jpg"  class="slider_line_pic"     >
+                </div>
+                <button   class="slider_btn prev"  >
+                    <svg   class="prev_pic"     width="22" height="42" viewBox="0 0 22 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.80781 20.5859L21.4899 40.2679L20.5859 41.1719L-4.57234e-05 20.5859L20.5859 -8.45058e-05L21.4899 0.903845L1.80781 20.5859Z" fill="#333333"/>
+                    </svg>
+                </button>
+                <button  class="slider_btn next"  >
+                    <svg   class="next_pic"      width="22" height="42" viewBox="0 0 22 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.80781 20.5859L21.4899 40.2679L20.5859 41.1719L-4.57234e-05 20.5859L20.5859 -8.45058e-05L21.4899 0.903845L1.80781 20.5859Z" fill="#333333"/>
+                    </svg>
+                </button>
+                <div  class="slider_dots"  >
+                    <div  class="slider_dot active_dot"  >
+                    </div>
+                    <div  class="slider_dot"  >
+                    </div>
+                    <div  class="slider_dot"  >
+                    </div>
+                </div>
+                <div  class="slider_line_content"  >
+                    <h1   class="slider_line_content_title"  >
+                        Проектные решения любой сложности
+                    </h1>
+                    <p   class="slider_line_content_txt"   >
+                        Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов
+                    </p>
+                    <a    href="#!"  class="slider_line_content_link"  >
+                        Заказать расчёт
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div  class="about"   id="about"       >
+            <h1   class="about_title"  >
+                О нас
+            </h1>
+            <p    class="about_txt"  >
+                Также как перспективное планирование создаёт необходимость включения в производственный план целого
+                ряда внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей масштабности и
+                грандиозности. А также диаграммы связей могут быть описаны максимально подробно. Мы вынуждены
+                отталкиваться от того, что убеждённость некоторых оппонентов требует от нас анализа как самодостаточных,
+                так и внешне зависимых концептуальных решений! Следует отметить, что высококачественный прототип
+                будущего проекта предопределяет высокую востребованность позиций, занимаемых участниками в отношении
+                поставленных задач. Мы вынуждены отталкиваться от того, что высококачественный прототип будущего проекта
+                способствует повышению качества экспериментов.
+            </p>
+            <div  class="about_boxes"  >
+                <div  class="about_box"  >
+                    <div  class="about_box_pic"  >
+                        <img src="worker.jpg"   class="about_pic"    >
+                        <div  class="about_box_bottom"  >
+                            <p   class="about_box_bottom_txt"   >
+                                Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и реализации новых принципов.
+                            </p>
+                            <a   class="about_box_bottom_link"   >
+                                Подробнее
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div  class="about_box_adapt"  >
+                    <img src="worker.jpg"   class="about_pic_adapt"    >
+                    <p   class="about_txt_adapt"   >
+                        Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и реализации новых принципов.
+                    </p>
+                    <a   class="about_box_link_adapt"   >
+                        Подробнее
+                    </a>
+
+                </div>
+
+
+
+                <div  class="about_box"  >
+
+                        <div  class="about_box_second"  >
+                            <div      class="about_box_second_pic_box"  >
+                                <img src="group25.png"   class="about_box_second_pic"   >
+                            </div>
+
+                            <div  class="about_box_second_textContent"      >
+                                <h1   class="about_box_second_title"  >
+                                    Консультация с широким активом
+                                </h1>
+                                <p   class="about_box_second_txt"   >
+                                    А также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для как самодостаточных, так и внешне зависимых концептуальных решений.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+
+                </div>
+
+
+
+                <div  class="about_box"  >
+                    <div  class="about_box_second"  >
+                        <div      class="about_box_second_pic_box"  >
+                            <img src="group24.png"   class="about_box_second_pic"   >
+                        </div>
+
+                        <div  class="about_box_second_textContent"      >
+                            <h1   class="about_box_second_title"  >
+                                В своём стремлении повысить
+                            </h1>
+                            <p   class="about_box_second_txt"   >
+                                Качество жизни, они забывают, что сплочённость команды профессионалов представляет собой интересный эксперимент проверки прогресса профессионального сообщества.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div  class="howWeWork"    id="howWeWork"     >
+            <h1   class="howWeWork_title"  >
+                Как мы работаем
+            </h1>
+
+            <ul  class="steps_list"  >
+                <li   class="steps_item"  >
+                    <a   class="steps_link active_steps_link" href="#!"  >    1 шаг     </a>
+                </li>
+                <li   class="steps_item"  >
+                    <a   class="steps_link" href="#!"  >    2 шаг     </a>
+                </li>
+                <li   class="steps_item"  >
+                    <a   class="steps_link"  href="#!" >    3 шаг     </a>
+                </li>
+                <li   class="steps_item"  >
+                    <a   class="steps_link"  href="#!" >    4 шаг     </a>
+                </li>
+
+            </ul>
+
+            <div  class="steps_boxes"  >
+
+
+                <div  class="steps_box steps_active_slide"  >
+                    <div  class="steps_box_text"  >
+                        <h1  class="steps_box_title"   >
+                            Проводим консультацию
+                        </h1>
+                        <p class="steps_box_txt" >
+                            Влечет за собой процесс внедрения и модернизации приоритизации разума над эмоциями.
+                            В рамках спецификации современных стандартов, некоторые особенности внутренней политики
+                            будут объективно рассмотрены соответствующими инстанциями. А также представители современных
+                            социальных резервов, инициированные исключительно синтетически, ограничены исключительно
+                            образом мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных источников,
+                            современные исследования подвергнуты целой серии независимых исследований. Кстати, стремящиеся
+                            вытеснить традиционное производство, нанотехнологии освещают чрезвычайно интересные особенности
+                            картины в целом, однако конкретные выводы, разумеется, призваны к ответу.
+                        </p>
+
+                        <div  class="steps_box_buttons"  >
+                            <a   class="steps_box_more"  href="#!" >
+                                Подробнее
+                            </a>
+
+                            <a   class="steps_box_contract" href="#!"  >
+                                Договор
+                            </a>
+                        </div>
+                    </div>
+
+                    <div  class="steps_box_pic"  >
+                        <img src="cont_pic1.jpg"  class="steps_pic"  >
+                    </div>
+                </div>
+
+
+
+                <div  class="steps_box"  >
+                    <div  class="steps_box_text"  >
+                        <h1  class="steps_box_title"   >
+                            Составляем смету
+                        </h1>
+                        <p class="steps_box_txt" >
+                            Внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации современных
+                            стандартов, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими
+                            инстанциями. А также представители современных социальных резервов, инициированные исключительно
+                            синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей картины,
+                            реплицированные с зарубежных источников, современные исследования подвергнуты целой серии
+                            независимых исследований.
+                        </p>
+
+                        <div  class="steps_box_buttons"  >
+                            <a   class="steps_box_more"  href="#!" >
+                                Подробнее
+                            </a>
+
+                            <a   class="steps_box_contract" href="#!"  >
+                                Договор
+                            </a>
+                        </div>
+                    </div>
+
+                    <div  class="steps_box_pic"  >
+                        <img src="cont_pic2.jpg"  class="steps_pic"  >
+                    </div>
+                </div>
+
+                <div  class="steps_box"  >
+                    <div  class="steps_box_text"  >
+                        <h1  class="steps_box_title"   >
+                            Привлекаем подрядчиков
+                        </h1>
+                        <p class="steps_box_txt" >
+                            Идейные соображения высшего порядка, а также новая модель организационной деятельности
+                            требует анализа прогресса профессионального сообщества. Высокий уровень вовлечения
+                            представителей целевой аудитории является четким доказательством простого факта:
+                            высококачественный прототип будущего проекта напрямую зависит от дальнейших направлений
+                            развития. Разнообразный и богатый опыт говорит нам, что новая модель организационной
+                            деятельности говорит о возможностях системы массового участия. Принимая во внимание показатели
+                            успешности, постоянное информационно-пропагандистское обеспечение нашей деятельности
+                            позволяет выполнить важные задания по разработке прогресса профессионального сообщества.
+                        </p>
+
+                        <div  class="steps_box_buttons"  >
+                            <a   class="steps_box_more"  href="#!" >
+                                Подробнее
+                            </a>
+
+                            <a   class="steps_box_contract" href="#!"  >
+                                Договор
+                            </a>
+                        </div>
+                    </div>
+
+                    <div  class="steps_box_pic"  >
+                        <img src="cont_pic3.jpg"  class="steps_pic"  >
+                    </div>
+                </div>
+
+
+
+                <div  class="steps_box"  >
+                    <div  class="steps_box_text"  >
+                        <h1  class="steps_box_title"   >
+                            Инспектируем все этапы работ
+                        </h1>
+                        <p class="steps_box_txt" >
+                            Высокий уровень вовлечения представителей целевой аудитории является четким доказательством
+                            простого факта: высококачественный прототип будущего проекта напрямую зависит от дальнейших
+                            направлений развития. Разнообразный и богатый опыт говорит нам, что новая модель организационной
+                            деятельности говорит о возможностях системы массового участия. Принимая во внимание показатели
+                            успешности, постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет.
+                        </p>
+
+                        <div  class="steps_box_buttons"  >
+                            <a   class="steps_box_more"  href="#!" >
+                                Подробнее
+                            </a>
+
+                            <a   class="steps_box_contract" href="#!"  >
+                                Договор
+                            </a>
+                        </div>
+                    </div>
+
+                    <div  class="steps_box_pic"  >
+                        <img src="cont_pic4.jpg"  class="steps_pic"  >
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div  class="faq"  id="faq"   >
+            <h1   class="faq_title"  >
+                Часто задаваемые вопросы
+            </h1>
+
+            <div  class="faq_box"  >
+                <div    class="faq_box_top"    >
+                    <h1  class="faq_box_title"   >
+                        Из чего формируется конечная стоимость проекта?
+                    </h1>
+                    <img src="plus.png"  class="faq_box_pic"   >
+                </div>
+                <div  class="faq_box_bottom"  >
+                    <p   class="faq_box_bottom_txt"   >
+                        Являясь всего лишь частью общей картины, непосредственные участники технического прогресса
+                        призывают нас к новым свершениям, которые, в свою очередь, должны быть своевременно верифицированы.
+                        Но высококачественный прототип будущего проекта является качественно новой ступенью первоочередных
+                        требований. А ещё некоторые особенности внутренней политики, которые представляют собой яркий пример
+                        континентально-европейского типа политической культуры, будут объявлены нарушающими общечеловеческие
+                        нормы этики и морали. И нет сомнений, что явные признаки победы институционализации призывают нас
+                        к новым свершениям, которые, в свою очередь, должны быть указаны как претенденты на роль ключевых
+                        факторов.
+                    </p>
+                </div>
+            </div>
+
+            <div  class="faq_box"  >
+                <div    class="faq_box_top"    >
+                    <h1  class="faq_box_title"   >
+                        У меня есть свой проект. Сможем ли мы его доработать / реализовать?
+                    </h1>
+                    <img src="plus.png"  class="faq_box_pic"   >
+                </div>
+                <div  class="faq_box_bottom"  >
+                    <p   class="faq_box_bottom_txt"   >
+                        Являясь всего лишь частью общей картины, непосредственные участники технического прогресса
+                        призывают нас к новым свершениям, которые, в свою очередь, должны быть своевременно верифицированы.
+                        Но высококачественный прототип будущего проекта является качественно новой ступенью первоочередных
+                        требований. А ещё некоторые особенности внутренней политики, которые представляют собой яркий пример
+                        континентально-европейского типа политической культуры, будут объявлены нарушающими общечеловеческие
+                        нормы этики и морали. И нет сомнений, что явные признаки победы институционализации призывают нас
+                        к новым свершениям, которые, в свою очередь, должны быть указаны как претенденты на роль ключевых
+                        факторов.
+
+                    </p>
+                </div>
+            </div>
+
+
+            <div  class="faq_box"  >
+                <div    class="faq_box_top"    >
+                    <h1  class="faq_box_title"   >
+                        Я выбираю между разными компаниями. В чём ваше отличие?
+                    </h1>
+                    <img src="plus.png"  class="faq_box_pic"   >
+                </div>
+                <div  class="faq_box_bottom"  >
+                    <p   class="faq_box_bottom_txt"   >
+                        Являясь всего лишь частью общей картины, непосредственные участники технического прогресса
+                        призывают нас к новым свершениям, которые, в свою очередь, должны быть своевременно верифицированы.
+                        Но высококачественный прототип будущего проекта является качественно новой ступенью первоочередных
+                        требований. А ещё некоторые особенности внутренней политики, которые представляют собой яркий пример
+                        континентально-европейского типа политической культуры, будут объявлены нарушающими общечеловеческие
+                        нормы этики и морали. И нет сомнений, что явные признаки победы институционализации призывают нас
+                        к новым свершениям, которые, в свою очередь, должны быть указаны как претенденты на роль ключевых
+                        факторов.
+
+                    </p>
+                </div>
+            </div>
+
+
+            <div  class="faq_box"  >
+                <div    class="faq_box_top"    >
+                    <h1  class="faq_box_title"   >
+                        Могу ли я делегировать вам работу / согласование с подрядчиком / организацией?
+                    </h1>
+                    <img src="plus.png"  class="faq_box_pic"   >
+                </div>
+                <div  class="faq_box_bottom"  >
+                    <p   class="faq_box_bottom_txt"   >
+                        Являясь всего лишь частью общей картины, непосредственные участники технического прогресса
+                        призывают нас к новым свершениям, которые, в свою очередь, должны быть своевременно верифицированы.
+                        Но высококачественный прототип будущего проекта является качественно новой ступенью первоочередных
+                        требований. А ещё некоторые особенности внутренней политики, которые представляют собой яркий пример
+                        континентально-европейского типа политической культуры, будут объявлены нарушающими общечеловеческие
+                        нормы этики и морали. И нет сомнений, что явные признаки победы институционализации призывают нас
+                        к новым свершениям, которые, в свою очередь, должны быть указаны как претенденты на роль ключевых
+                        факторов.
+
+                    </p>
+                </div>
+            </div>
+
+
+
+            <div  class="faq_box"  >
+                <div    class="faq_box_top"    >
+                    <h1  class="faq_box_title"   >
+                        Могу ли я вернуть деньги на каком-либо из этапов работ?
+                    </h1>
+                    <img src="plus.png"  class="faq_box_pic"   >
+                </div>
+                <div  class="faq_box_bottom"  >
+                    <p   class="faq_box_bottom_txt"   >
+                        Являясь всего лишь частью общей картины, непосредственные участники технического прогресса
+                        призывают нас к новым свершениям, которые, в свою очередь, должны быть своевременно верифицированы.
+                        Но высококачественный прототип будущего проекта является качественно новой ступенью первоочередных
+                        требований. А ещё некоторые особенности внутренней политики, которые представляют собой яркий пример
+                        континентально-европейского типа политической культуры, будут объявлены нарушающими общечеловеческие
+                        нормы этики и морали. И нет сомнений, что явные признаки победы институционализации призывают нас
+                        к новым свершениям, которые, в свою очередь, должны быть указаны как претенденты на роль ключевых
+                        факторов.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<footer  class="footer"   id="contacts"   >
+
+    <div  class="container"  >
+
+        <div  class="footer_boxes"  >
+
+            <div  class="footer_box"  >
+                <div  class="footer_box_logo"  >
+                    <img src="logo_two.png"   class="footer_box_logo_pic"  >
+                </div>
+
+                <ul  class="footer_list"   >
+                    <li  class="footer_item"    >
+                        <a   class="footer_link"  href="#!">  О нас   </a>
+                    </li>
+                    <li  class="footer_item"    >
+                        <a   class="footer_link"  href="#!">  Проекты   </a>
+                    </li>
+                    <li  class="footer_item"    >
+                        <a   class="footer_link"  href="#!">  Отзывы   </a>
+                    </li>
+                    <li  class="footer_item"    >
+                        <a   class="footer_link"  href="#!">  Договор оферты   </a>
+                    </li>
+                    <li  class="footer_item"    >
+                        <a   class="footer_link"  href="#!"> Договор подряда  </a>
+                    </li>
+                    <li  class="footer_item"    >
+                        <a   class="footer_link"  href="#!">  Конфиденциальность   </a>
+                    </li>
+                    <li  class="footer_item"    >
+                        <a   class="footer_link"  href="#!"> Партнёрское соглашение  </a>
+                    </li>
+                </ul>
+
+                <div  class="footer_social"  >
+                    <div  class="footer_social_box"  >
+                        <a   href="#!"   >
+                            <img src="fb.png"  class="footer_social_box_pic" >
+                        </a>
+                    </div>
+                    <div  class="footer_social_box"  >
+                        <a   href="#!"   >
+                            <img src="vk%20(1).png"  class="footer_social_box_pic" >
+                        </a>
+                    </div>
+                    <div  class="footer_social_box"  >
+                        <a   href="#!"   >
+                            <img src="instagram.png"  class="footer_social_box_pic" >
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div  class="footer_box"  >
+
+                <h1   class="footer_box_title"  >
+                    Оставить заявку
+                </h1>
+
+                <form   class="footer_box_form"    >
+                    <input type="text" id="fio" name="fio"  class="form_inp"  placeholder="Фамилия, имя и отчество*"   >
+
+                    <input type="text" id="email" name="email"   class="form_inp"  placeholder="E-mail*"  >
+
+
+                    <textarea   id="text_message"  class="form_inp"  placeholder="Сообщение"       ></textarea>
+
+                    <div  class="footer_box_form_bottom"  >
+                        <button type="submit" class="btn-form">Отправить данные</button>
+                        <div   class="checkbox_boxes"     >
+                            <input class="checkbox" type="checkbox" checked=""   id="checkbox_box"  >
+                            <label for="checkbox_box"     class="checkbox_label"      >Согласен на обработку данных</label>
+                        </div>
+
+
+                    </div>
+
+                </form>
+
+
+
+
+
+
+            </div>
+
+            <div  class="footer_box"  >
+                <p   class="footer_box_text"   >
+                    Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого
+                    факта: разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели
+                    развития. Таким образом, консультация с широким активом обеспечивает широкому кругу (специалистов)
+                    участие в формировании стандартных подходов.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script  src="script.js" >      </script>
+
+</body>
+
+</html>
